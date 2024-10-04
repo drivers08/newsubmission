@@ -5,8 +5,8 @@ import streamlit as st
 st.title('Analisis Bike Sharing')
 st.write("Ini adalah dashboard sederhana yang menampilkan hasil analisis dataset.")
 
-days = pd.read_csv('..\data\days.csv')
-hour = pd.read_csv('..\data\hours.csv')
+days = pd.read_csv('./data/days.csv')
+hour = pd.read_csv('./data/hours.csv')
 
 st.write("Data days")
 st.dataframe(days.head())  # Menampilkan 5 data teratas dari data days
